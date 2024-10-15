@@ -24,8 +24,7 @@ This is a solution to the **Profile card component** challenge on [Frontend Ment
 
 Your users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+- Build out this profile card component and get it looking as close to the design as possible.
 
 ### Screenshot
 
