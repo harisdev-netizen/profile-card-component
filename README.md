@@ -38,7 +38,7 @@ Your users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/harisdev-netizen/profile-card-component)
-- Live Site URL: [Live Preview](https://base-apparel-hype.netlify.app/)
+- Live Site URL: [Live Preview](https://profile-summary.netlify.app/)
 
 ## My process
 
