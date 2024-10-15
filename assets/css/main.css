@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans';
+  background-color: #19A1AE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle-1 {
+  position: absolute;
+  opacity: 25%;
+  width: 978px;
+  height: 976px;
+  top: -550px;
+  left: -200px;
+  background: url('../../assets/images/bg-pattern-top.svg') no-repeat center/cover;
+}
+
+.circle-2 {
+  position: absolute;
+  opacity: 25%;
+  width: 978px;
+  height: 976px;
+  bottom: -407px;
+  right: -285px;
+  background: url('../../assets/images/bg-pattern-bottom.svg') no-repeat center/cover;
+}
+
+.profile-card {
+  max-width: 351px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0px 50px 100px -20px rgb(8, 70, 94, 50.48);
+  overflow: hidden;
+  position: relative;
+}
+
+.profile-header {
+  position: relative;
+  height: 150px;
+}
+
+.profile-header .header-bg {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.profile-header .profile-img {
+  width: 96px;
+  border-radius: 50%;
+  border: 5px solid #FFFFFF;
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profile-details {
+  text-align: center;
+}
+
+.profile-details h1 {
+  font-family: 'Kumbh Sans';
+  font-size: 18px;
+  font-weight: bold;
+  color: #2E3349;
+  margin-bottom: 9px;
+  margin-top: 72px;
+}
+
+.profile-details span {
+  font-family: 'Kumbh Sans';
+  font-size: 18px;
+  font-weight: normal;
+  color: #6B7082;
+  margin-left: 8.52px;
+}
+
+.profile-details h2 {
+  font-family: 'Kumbh Sans';
+  font-size: 14px;
+  font-weight: normal;
+  color: #6B7082;
+  margin-bottom: 25px;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px 54.2px 24px 47.13px;
+  border-top: 2px solid #E8E9EC;
+}
+
+.profile-stats div {
+  text-align: center;
+}
+
+.profile-stats div h3 {
+  font-family: 'Kumbh Sans';
+  font-size: 18px;
+  font-weight: bold;
+  color: #2E3349;
+  margin-bottom: 5px;
+}
+
+.profile-stats div p {
+  font-family: 'Kumbh Sans';
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #6B7082;
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow: hidden;
+    margin-inline: 25px;
+  }
+
+  .circle-1,
+  .circle-2 {
+    display: none;
+  }
+
+  .profile-details h2 {
+    margin-bottom: 24px;
+  }
+
+  .profile-stats {
+    padding: 24px 52px 24px 41px;
+  }
+}
