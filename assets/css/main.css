@@ -21,7 +21,7 @@ body {
   position: absolute;
   opacity: 50%;
   width: 978px;
-  height: 976px;
+  min-height: 976px;
   top: -550px;
   left: -200px;
   background: url('../../assets/images/bg-pattern-top.svg') no-repeat center/cover;
@@ -48,7 +48,7 @@ body {
 
 .profile-header {
   position: relative;
-  height: 150px;
+  height: 140px;
 }
 
 .profile-header .header-bg {
@@ -69,6 +69,7 @@ body {
 
 .profile-details {
   text-align: center;
+  margin-top: 72px;
 }
 
 .profile-details h1 {
@@ -77,7 +78,6 @@ body {
   font-weight: bold;
   color: #2E3349;
   margin-bottom: 9px;
-  margin-top: 72px;
 }
 
 .profile-details span {
